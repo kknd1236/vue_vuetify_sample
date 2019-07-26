@@ -1,4 +1,4 @@
-# ex-project
+# Vuex & Router 실습 예제  | 로그인 상태 관리하기 | Vuex | Vue Router
 
 ## Project setup
 ```

@@ -1,13 +1,13 @@
 <template>
-  <v-container fill-height style="max-width:450px;">
-    <v-layout align-center wrap>
+  <v-container fluid fill-height style="max-width:450px;">
+    <v-layout align-center justify-center wrap>
       <v-flex xs12>
         <v-alert :value="isLoginError" type="error"
           >아이디와 비밀번호를 확인해주세요.</v-alert
         >
-        <v-alert :value="isLogin" type="success"
-          >로그인이 완료되었습니다.</v-alert
-        >
+        <v-alert :value="isLogin" type="success">
+          로그인이 완료되었습니다.
+        </v-alert>
         <v-card>
           <v-toolbar flat>
             <v-toolbar-title>로그인</v-toolbar-title>

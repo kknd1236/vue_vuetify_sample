@@ -1,5 +1,10 @@
 # Vuex & Router 실습 예제  | 로그인 상태 관리하기 | Vuex | Vue Router
 
+#firebase cli 설치
+```
+npm install -g firebase-tools
+```
+
 ## Project setup
 ```
 npm install

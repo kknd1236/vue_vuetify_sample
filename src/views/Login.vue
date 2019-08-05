@@ -1,6 +1,6 @@
 <template>
-  <v-container fill-height style="max-width:450px;">
-    <v-layout align-center wrap>
+  <v-container fluid fill-height style="max-width:450px;">
+    <v-layout align-center justify-center wrap>
       <v-flex xs12>
         <v-alert :value="isLoginError" type="error"
           >아이디와 비밀번호를 확인해주세요.</v-alert
